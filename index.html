@@ -9,10 +9,20 @@
     
     <style>
 
-        #sl{
-            
+        header{
+            background-color: #03a5fc;
         }
 
+        header{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-evenly
+        }
+
+        #sl{
+        height: 150px;
+        }
     </style>
         
 
@@ -30,33 +40,53 @@
 
         <header>
 
-            <img src="Fun_Vectors___Illustrations_for_Free_Download___Freepik-removebg-preview.png" id="sl">
+            <img src="Fun_Vectors___Illustrations_for_Free_Download___Freepik-removebg-preview.png" id="sl" >
 
 
             <h1>Kamiya's Song</h1>
-            <a href="Biblioteca.html">Biblioteca</a>
-            <a href="MinhaConta.html">Conta</a>
+            <a id="a" href="Biblioteca.html">Biblioteca</a>
+            <a id="b" href="MinhaConta.html">Conta</a>
+            <a id="c" href="SobreNos.html">Sobre Nós</a>
                             
         </header>
 
         <hr>
     <form action="enviar-dados" method="post">
    
-    <label for="text">Nick name:</label>
-    <input id="ll" type="text" placeholder="Apelido">
+        
 
-    <label for="email">Email:</label>
-    <input id="ll" type="text" placeholder="@gmail.com">
+            <label for="text">Nick name:</label>
+            <input id="ll" type="text" placeholder="Apelido">
 
-    <label for="password">Senha:</label>
-    <input id="ll" type="password" placeholder="*******">
+            <label for="email">Email:</label>
+            <input id="ll" type="text" placeholder="@gmail.com">
 
+            <label for="password">Senha:</label>
+            <input id="ll" type="password" placeholder="*******">
 
+    
+        
       <button id="lk"> <a id="link" href="Biblioteca.html">Entrar</a> </button> 
+
+
 
         <style>
 
+        #a{
+            color: black;
+        }
         
+        #b{
+            color: black;
+        }
+            
+        #c{
+            color: black;
+        }
+
+        #ll {
+            justify-content: space-evenly;
+        }
                                                 
         
 
@@ -66,7 +96,7 @@
         }
 
         #lk {
-            background-color: blueviolet;
+            background-color: #03a5fc;
             color: white;
             border-radius: 12px;
             height: 25px;
